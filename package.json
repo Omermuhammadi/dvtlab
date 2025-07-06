@@ -1,15 +1,19 @@
 {
   "name": "olympics-viz",
+  "homepage": "https://omermuhammadi.github.io/dvtlab",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.0"
   },
   "dependencies": {
