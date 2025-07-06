@@ -109,20 +109,6 @@ function QnA() {
     },
     {
       id: 9,
-      question: "Q4: What are the most competitive sports by viewership and participation?",
-      answer: "Athletics leads in both event count (47 events) and global reach (500M viewers), making it the most competitive. Football has the highest viewership (600M) despite only 2 events, while Swimming balances high competition (34 events) with strong viewership (400M).",
-      chartType: "bubble",
-      data: competitivenessData.map(d => ({
-        x: d.events,
-        y: d.tv_viewership_millions,
-        size: d.competitiveness_score,
-        name: d.sport,
-        category: d.sport
-      })),
-      chartProps: { title: 'Sport Competitiveness: Events vs Global Viewership' }
-    },
-    {
-      id: 10,
       question: "Q5: What revenue patterns exist per host country and Olympic year?",
       answer: "Olympic economics reveal challenging realities: only 3 of 10 recent Olympics were profitable. Los Angeles 1984 achieved the highest profit ($1B), while Beijing 2008 had the highest costs ($40B). Revenue has grown from $800M to $5.2B, but costs have increased even faster.",
       chartType: "clustered",
@@ -140,7 +126,7 @@ function QnA() {
       chartProps: { title: 'Olympic Economics: Revenue vs Cost by Host City' }
     },
     {
-      id: 11,
+      id: 10,
       question: "Q6: How does population size relate to Olympic performance?",
       answer: "Population size shows diminishing returns in Olympic success. Small nations like Norway (5.4M people) achieve 50+ medals per million, while large nations like China show lower per-capita efficiency. This suggests sporting culture, infrastructure, and economic development matter more than raw population.",
       chartType: "advanced_bubble",
@@ -157,7 +143,7 @@ function QnA() {
       chartProps: { title: 'Population vs Olympic Efficiency Analysis' }
     },
     {
-      id: 12,
+      id: 11,
       question: "Q7: Which age group has the highest medal success ratio historically?",
       answer: "The 21-25 age group shows the highest overall success rates across multiple sports (average 18.1%). This represents the sweet spot between physical peak and experience. However, sport-specific analysis shows gymnastics favors 15-20, while endurance sports peak at 26-30.",
       chartType: "violin",
@@ -171,7 +157,7 @@ function QnA() {
       chartProps: { title: 'Age Distribution and Success Rates by Sport' }
     },
     {
-      id: 13,
+      id: 12,
       question: "Q8: What hidden correlations exist between sporting culture and medal efficiency?",
       answer: "Analysis reveals that countries with strong winter sports culture (Norway, Canada) show higher per-capita efficiency, while emerging economies focus on sports requiring less infrastructure. Geographic and climate factors significantly influence sport selection and success patterns.",
       chartType: "scatter",
@@ -185,22 +171,8 @@ function QnA() {
       chartProps: { title: 'Sporting Culture Index vs Medal Performance' }
     },
     {
-      id: 14,
-      question: "Q9: How do economic factors influence Olympic medal distribution?",
-      answer: "Economic analysis shows strong correlation between GDP per capita and Olympic success, but with notable outliers. Countries investing heavily in sport-specific academies and infrastructure (East Germany historically, Australia's AIS) achieve above-expected results regardless of overall economic size.",
-      chartType: "bubble",
-      data: medalsData.slice(0, 12).map((country, i) => ({
-        x: 20000 + Math.random() * 60000, // Simulated GDP per capita
-        y: country.total,
-        size: country.total / 20,
-        name: country.country,
-        category: country.country
-      })),
-      chartProps: { title: 'Economic Development vs Olympic Success' }
-    },
-    {
-      id: 15,
-      question: "Q10: What anomalies and breakthrough patterns exist in Olympic history?",
+      id: 13,
+      question: "Q9: What anomalies and breakthrough patterns exist in Olympic history?",
       answer: "Olympic history reveals fascinating anomalies: East Germany's disproportionate success (1968-1988), the 1980/1984 boycotts' impact on medal distribution, and the rise of specialized sports academies. Breakthrough patterns show new nations often excel in niche sports before expanding to traditional events.",
       chartType: "line",
       data: athleteData.map((d, i) => ({
@@ -211,33 +183,24 @@ function QnA() {
       chartProps: { xField: 'year', yField: 'total', title: 'Olympic Participation Anomalies Over Time' }
     },
     {
-      id: 16,
-      question: "Q11: What multi-dimensional patterns exist across athlete performance metrics?",
-      answer: "Multi-dimensional analysis reveals complex patterns: Elite athletes typically combine young starting age (18-22), sustained career length (8-12 years), high country sports ranking, and sport popularity. The most successful athletes show balanced optimization across all dimensions rather than extremes in single metrics.",
-      chartType: "parallel",
-      data: medalsData.slice(0, 15).map((country, i) => ({
-        name: country.country,
-        age: 20 + Math.random() * 15, // Simulated average athlete age
-        medalCount: country.total,
-        countryRank: i + 1,
-        sportPopularity: 3 + Math.random() * 7, // Simulated sport popularity score
-        performanceScore: (country.total / 50) * 100 // Performance score based on medals
-      })),
-      chartProps: { title: 'Multi-Dimensional Athletic Excellence Analysis' }
-    },
-    {
-      id: 17,
-      question: "Q12: Which age-sport combinations show the highest success matrices?",
+      id: 14,
+      question: "Q10: Which age-sport combinations show the highest success matrices?",
       answer: "Success matrix analysis reveals peak performance zones: Gymnastics (18-25: 31.2% success), Swimming (21-25: 28.7%), and Athletics (23-28: 25.1%) show the highest success rates. Older age groups (31-35) excel in precision sports like Shooting (22.8%) and Equestrian (20.4%), while team sports show more balanced age distributions.",
       chartType: "matrix",
-      data: agePerformanceData.map(d => ({
-        sport: d.sport,
-        age: d.avg_age,
-        medalCount: d.medals_won,
-        athleteCount: d.athletes,
-        successRate: d.success_rate
-      })),
-      chartProps: { title: 'Success Rate Matrix: Age Groups vs Sports Performance' }
+      data: agePerformanceData.map(d => {
+        // Normalize success rate to 1-100% scale
+        const maxSuccessRate = Math.max(...agePerformanceData.map(item => item.success_rate))
+        const normalizedSuccessRate = Math.max(1, Math.min(100, (d.success_rate / maxSuccessRate) * 100))
+        
+        return {
+          sport: d.sport,
+          age: d.avg_age,
+          medalCount: d.medals_won,
+          athleteCount: d.athletes,
+          successRate: normalizedSuccessRate
+        }
+      }),
+      chartProps: { title: 'Success Rate Matrix: Age Groups vs Sports Performance (Normalized 1-100%)' }
     }
   ]
 

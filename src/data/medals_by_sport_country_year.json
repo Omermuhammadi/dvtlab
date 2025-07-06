@@ -1,0 +1,434 @@
+[
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 1996,
+    "gold": 13,
+    "silver": 11,
+    "bronze": 2,
+    "total": 26
+  },
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 2000,
+    "gold": 14,
+    "silver": 8,
+    "bronze": 11,
+    "total": 33
+  },
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 2004,
+    "gold": 12,
+    "silver": 9,
+    "bronze": 7,
+    "total": 28
+  },
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 2008,
+    "gold": 12,
+    "silver": 9,
+    "bronze": 10,
+    "total": 31
+  },
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 2012,
+    "gold": 16,
+    "silver": 9,
+    "bronze": 6,
+    "total": 31
+  },
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "year": 2016,
+    "gold": 16,
+    "silver": 8,
+    "bronze": 9,
+    "total": 33
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 1996,
+    "gold": 13,
+    "silver": 9,
+    "bronze": 2,
+    "total": 24
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 2000,
+    "gold": 12,
+    "silver": 8,
+    "bronze": 6,
+    "total": 26
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 2004,
+    "gold": 8,
+    "silver": 12,
+    "bronze": 2,
+    "total": 22
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 2008,
+    "gold": 7,
+    "silver": 9,
+    "bronze": 7,
+    "total": 23
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 2012,
+    "gold": 9,
+    "silver": 13,
+    "bronze": 7,
+    "total": 29
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "year": 2016,
+    "gold": 13,
+    "silver": 10,
+    "bronze": 9,
+    "total": 32
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 1996,
+    "gold": 3,
+    "silver": 5,
+    "bronze": 2,
+    "total": 10
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 2000,
+    "gold": 5,
+    "silver": 9,
+    "bronze": 4,
+    "total": 18
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 2004,
+    "gold": 3,
+    "silver": 4,
+    "bronze": 0,
+    "total": 7
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 2008,
+    "gold": 6,
+    "silver": 6,
+    "bronze": 8,
+    "total": 20
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 2012,
+    "gold": 1,
+    "silver": 6,
+    "bronze": 3,
+    "total": 10
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "year": 2016,
+    "gold": 3,
+    "silver": 4,
+    "bronze": 3,
+    "total": 10
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 1996,
+    "gold": 2,
+    "silver": 2,
+    "bronze": 3,
+    "total": 7
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 2000,
+    "gold": 3,
+    "silver": 1,
+    "bronze": 5,
+    "total": 9
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 2004,
+    "gold": 3,
+    "silver": 2,
+    "bronze": 1,
+    "total": 6
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 2008,
+    "gold": 2,
+    "silver": 5,
+    "bronze": 3,
+    "total": 10
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 2012,
+    "gold": 2,
+    "silver": 2,
+    "bronze": 1,
+    "total": 5
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "year": 2016,
+    "gold": 2,
+    "silver": 1,
+    "bronze": 1,
+    "total": 4
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 1996,
+    "gold": 1,
+    "silver": 3,
+    "bronze": 1,
+    "total": 5
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 2000,
+    "gold": 1,
+    "silver": 0,
+    "bronze": 1,
+    "total": 2
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 2004,
+    "gold": 1,
+    "silver": 0,
+    "bronze": 0,
+    "total": 1
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 2008,
+    "gold": 9,
+    "silver": 1,
+    "bronze": 4,
+    "total": 14
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 2012,
+    "gold": 4,
+    "silver": 3,
+    "bronze": 1,
+    "total": 8
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "year": 2016,
+    "gold": 0,
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 1996,
+    "gold": 2,
+    "silver": 2,
+    "bronze": 5,
+    "total": 9
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 2000,
+    "gold": 1,
+    "silver": 0,
+    "bronze": 2,
+    "total": 3
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 2004,
+    "gold": 1,
+    "silver": 0,
+    "bronze": 3,
+    "total": 4
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 2008,
+    "gold": 2,
+    "silver": 1,
+    "bronze": 2,
+    "total": 5
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 2012,
+    "gold": 1,
+    "silver": 1,
+    "bronze": 3,
+    "total": 5
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "year": 2016,
+    "gold": 2,
+    "silver": 0,
+    "bronze": 1,
+    "total": 3
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 1996,
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 2000,
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total": 2
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 2004,
+    "gold": 2,
+    "silver": 1,
+    "bronze": 1,
+    "total": 4
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 2008,
+    "gold": 7,
+    "silver": 4,
+    "bronze": 2,
+    "total": 13
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 2012,
+    "gold": 7,
+    "silver": 1,
+    "bronze": 1,
+    "total": 9
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "year": 2016,
+    "gold": 6,
+    "silver": 4,
+    "bronze": 2,
+    "total": 12
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 1996,
+    "gold": 2,
+    "silver": 2,
+    "bronze": 1,
+    "total": 5
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 2000,
+    "gold": 2,
+    "silver": 0,
+    "bronze": 1,
+    "total": 3
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 2004,
+    "gold": 3,
+    "silver": 0,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 2008,
+    "gold": 1,
+    "silver": 1,
+    "bronze": 3,
+    "total": 5
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 2012,
+    "gold": 2,
+    "silver": 1,
+    "bronze": 1,
+    "total": 4
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "year": 2016,
+    "gold": 2,
+    "silver": 4,
+    "bronze": 2,
+    "total": 8
+  }
+]

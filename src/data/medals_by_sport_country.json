@@ -1,0 +1,382 @@
+[
+  {
+    "country": "USA",
+    "sport": "Swimming",
+    "gold": 87,
+    "silver": 64,
+    "bronze": 58,
+    "total": 209,
+    "athletes": 428,
+    "events": 34
+  },
+  {
+    "country": "USA",
+    "sport": "Athletics",
+    "gold": 134,
+    "silver": 108,
+    "bronze": 92,
+    "total": 334,
+    "athletes": 712,
+    "events": 47
+  },
+  {
+    "country": "USA",
+    "sport": "Basketball",
+    "gold": 16,
+    "silver": 1,
+    "bronze": 2,
+    "total": 19,
+    "athletes": 156,
+    "events": 2
+  },
+  {
+    "country": "USA",
+    "sport": "Gymnastics",
+    "gold": 33,
+    "silver": 17,
+    "bronze": 16,
+    "total": 66,
+    "athletes": 125,
+    "events": 14
+  },
+  {
+    "country": "USA",
+    "sport": "Boxing",
+    "gold": 23,
+    "silver": 15,
+    "bronze": 25,
+    "total": 63,
+    "athletes": 156,
+    "events": 13
+  },
+  {
+    "country": "USA",
+    "sport": "Wrestling",
+    "gold": 54,
+    "silver": 38,
+    "bronze": 23,
+    "total": 115,
+    "athletes": 234,
+    "events": 18
+  },
+  {
+    "country": "Soviet Union",
+    "sport": "Gymnastics",
+    "gold": 72,
+    "silver": 43,
+    "bronze": 27,
+    "total": 142,
+    "athletes": 156,
+    "events": 14
+  },
+  {
+    "country": "Soviet Union",
+    "sport": "Wrestling",
+    "gold": 31,
+    "silver": 21,
+    "bronze": 16,
+    "total": 68,
+    "athletes": 145,
+    "events": 18
+  },
+  {
+    "country": "Soviet Union",
+    "sport": "Athletics",
+    "gold": 39,
+    "silver": 31,
+    "bronze": 25,
+    "total": 95,
+    "athletes": 278,
+    "events": 47
+  },
+  {
+    "country": "Soviet Union",
+    "sport": "Swimming",
+    "gold": 12,
+    "silver": 21,
+    "bronze": 17,
+    "total": 50,
+    "athletes": 134,
+    "events": 34
+  },
+  {
+    "country": "Germany",
+    "sport": "Athletics",
+    "gold": 42,
+    "silver": 56,
+    "bronze": 48,
+    "total": 146,
+    "athletes": 345,
+    "events": 47
+  },
+  {
+    "country": "Germany",
+    "sport": "Swimming",
+    "gold": 31,
+    "silver": 40,
+    "bronze": 43,
+    "total": 114,
+    "athletes": 256,
+    "events": 34
+  },
+  {
+    "country": "Germany",
+    "sport": "Rowing",
+    "gold": 34,
+    "silver": 21,
+    "bronze": 18,
+    "total": 73,
+    "athletes": 145,
+    "events": 14
+  },
+  {
+    "country": "Germany",
+    "sport": "Cycling",
+    "gold": 25,
+    "silver": 19,
+    "bronze": 18,
+    "total": 62,
+    "athletes": 123,
+    "events": 18
+  },
+  {
+    "country": "Italy",
+    "sport": "Fencing",
+    "gold": 47,
+    "silver": 41,
+    "bronze": 36,
+    "total": 124,
+    "athletes": 234,
+    "events": 12
+  },
+  {
+    "country": "Italy",
+    "sport": "Cycling",
+    "gold": 32,
+    "silver": 15,
+    "bronze": 11,
+    "total": 58,
+    "athletes": 156,
+    "events": 18
+  },
+  {
+    "country": "Italy",
+    "sport": "Swimming",
+    "gold": 8,
+    "silver": 12,
+    "bronze": 15,
+    "total": 35,
+    "athletes": 98,
+    "events": 34
+  },
+  {
+    "country": "Australia",
+    "sport": "Swimming",
+    "gold": 58,
+    "silver": 55,
+    "bronze": 36,
+    "total": 149,
+    "athletes": 234,
+    "events": 34
+  },
+  {
+    "country": "Australia",
+    "sport": "Athletics",
+    "gold": 18,
+    "silver": 26,
+    "bronze": 30,
+    "total": 74,
+    "athletes": 189,
+    "events": 47
+  },
+  {
+    "country": "Australia",
+    "sport": "Cycling",
+    "gold": 19,
+    "silver": 13,
+    "bronze": 16,
+    "total": 48,
+    "athletes": 98,
+    "events": 18
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Athletics",
+    "gold": 32,
+    "silver": 47,
+    "bronze": 46,
+    "total": 125,
+    "athletes": 267,
+    "events": 47
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Cycling",
+    "gold": 28,
+    "silver": 23,
+    "bronze": 21,
+    "total": 72,
+    "athletes": 123,
+    "events": 18
+  },
+  {
+    "country": "Great Britain",
+    "sport": "Rowing",
+    "gold": 31,
+    "silver": 20,
+    "bronze": 7,
+    "total": 58,
+    "athletes": 89,
+    "events": 14
+  },
+  {
+    "country": "France",
+    "sport": "Fencing",
+    "gold": 44,
+    "silver": 42,
+    "bronze": 35,
+    "total": 121,
+    "athletes": 198,
+    "events": 12
+  },
+  {
+    "country": "France",
+    "sport": "Cycling",
+    "gold": 41,
+    "silver": 27,
+    "bronze": 23,
+    "total": 91,
+    "athletes": 145,
+    "events": 18
+  },
+  {
+    "country": "France",
+    "sport": "Athletics",
+    "gold": 15,
+    "silver": 19,
+    "bronze": 31,
+    "total": 65,
+    "athletes": 234,
+    "events": 47
+  },
+  {
+    "country": "Hungary",
+    "sport": "Swimming",
+    "gold": 28,
+    "silver": 24,
+    "bronze": 18,
+    "total": 70,
+    "athletes": 123,
+    "events": 34
+  },
+  {
+    "country": "Hungary",
+    "sport": "Fencing",
+    "gold": 23,
+    "silver": 18,
+    "bronze": 21,
+    "total": 62,
+    "athletes": 89,
+    "events": 12
+  },
+  {
+    "country": "Netherlands",
+    "sport": "Swimming",
+    "gold": 19,
+    "silver": 20,
+    "bronze": 23,
+    "total": 62,
+    "athletes": 98,
+    "events": 34
+  },
+  {
+    "country": "Netherlands",
+    "sport": "Cycling",
+    "gold": 20,
+    "silver": 18,
+    "bronze": 15,
+    "total": 53,
+    "athletes": 67,
+    "events": 18
+  },
+  {
+    "country": "Canada",
+    "sport": "Athletics",
+    "gold": 18,
+    "silver": 23,
+    "bronze": 25,
+    "total": 66,
+    "athletes": 178,
+    "events": 47
+  },
+  {
+    "country": "Canada",
+    "sport": "Swimming",
+    "gold": 12,
+    "silver": 14,
+    "bronze": 17,
+    "total": 43,
+    "athletes": 89,
+    "events": 34
+  },
+  {
+    "country": "Japan",
+    "sport": "Gymnastics",
+    "gold": 31,
+    "silver": 28,
+    "bronze": 25,
+    "total": 84,
+    "athletes": 98,
+    "events": 14
+  },
+  {
+    "country": "Japan",
+    "sport": "Swimming",
+    "gold": 22,
+    "silver": 16,
+    "bronze": 22,
+    "total": 60,
+    "athletes": 123,
+    "events": 34
+  },
+  {
+    "country": "Japan",
+    "sport": "Wrestling",
+    "gold": 32,
+    "silver": 17,
+    "bronze": 15,
+    "total": 64,
+    "athletes": 89,
+    "events": 18
+  },
+  {
+    "country": "China",
+    "sport": "Gymnastics",
+    "gold": 26,
+    "silver": 16,
+    "bronze": 12,
+    "total": 54,
+    "athletes": 67,
+    "events": 14
+  },
+  {
+    "country": "China",
+    "sport": "Swimming",
+    "gold": 12,
+    "silver": 17,
+    "bronze": 8,
+    "total": 37,
+    "athletes": 89,
+    "events": 34
+  },
+  {
+    "country": "China",
+    "sport": "Weightlifting",
+    "gold": 34,
+    "silver": 6,
+    "bronze": 4,
+    "total": 44,
+    "athletes": 45,
+    "events": 15
+  }
+]
