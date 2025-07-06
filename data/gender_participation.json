@@ -1,0 +1,62 @@
+[
+  {
+    "year": 1980,
+    "male": 4092,
+    "female": 1115,
+    "total": 5207
+  },
+  {
+    "year": 1984,
+    "male": 5230,
+    "female": 1566,
+    "total": 6796
+  },
+  {
+    "year": 1988,
+    "male": 6197,
+    "female": 2194,
+    "total": 8391
+  },
+  {
+    "year": 1992,
+    "male": 6652,
+    "female": 2704,
+    "total": 9356
+  },
+  {
+    "year": 1996,
+    "male": 6806,
+    "female": 3512,
+    "total": 10318
+  },
+  {
+    "year": 2000,
+    "male": 6582,
+    "female": 4069,
+    "total": 10651
+  },
+  {
+    "year": 2004,
+    "male": 6296,
+    "female": 4272,
+    "total": 10568
+  },
+  {
+    "year": 2008,
+    "male": 6305,
+    "female": 4637,
+    "total": 10942
+  },
+  {
+    "year": 2012,
+    "male": 5892,
+    "female": 4676,
+    "total": 10568
+  },
+  {
+    "year": 2016,
+    "male": 6179,
+    "female": 5059,
+    "total": 11238
+  }
+]

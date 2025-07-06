@@ -1,0 +1,410 @@
+[
+  {
+    "country": "United States",
+    "code": "USA",
+    "gold": 1180,
+    "silver": 959,
+    "bronze": 841,
+    "total": 2980
+  },
+  {
+    "country": "Soviet Union",
+    "code": "URS",
+    "gold": 473,
+    "silver": 376,
+    "bronze": 355,
+    "total": 1204
+  },
+  {
+    "country": "Germany",
+    "code": "GER",
+    "gold": 461,
+    "silver": 449,
+    "bronze": 444,
+    "total": 1354
+  },
+  {
+    "country": "Great Britain",
+    "code": "GBR",
+    "gold": 285,
+    "silver": 315,
+    "bronze": 289,
+    "total": 889
+  },
+  {
+    "country": "France",
+    "code": "FRA",
+    "gold": 258,
+    "silver": 293,
+    "bronze": 293,
+    "total": 844
+  },
+  {
+    "country": "Italy",
+    "code": "ITA",
+    "gold": 259,
+    "silver": 229,
+    "bronze": 270,
+    "total": 758
+  },
+  {
+    "country": "Australia",
+    "code": "AUS",
+    "gold": 164,
+    "silver": 187,
+    "bronze": 210,
+    "total": 561
+  },
+  {
+    "country": "Netherlands",
+    "code": "NED",
+    "gold": 95,
+    "silver": 105,
+    "bronze": 122,
+    "total": 322
+  },
+  {
+    "country": "Hungary",
+    "code": "HUN",
+    "gold": 181,
+    "silver": 154,
+    "bronze": 176,
+    "total": 511
+  },
+  {
+    "country": "Sweden",
+    "code": "SWE",
+    "gold": 148,
+    "silver": 170,
+    "bronze": 179,
+    "total": 497
+  },
+  {
+    "country": "East Germany",
+    "code": "GDR",
+    "gold": 153,
+    "silver": 129,
+    "bronze": 127,
+    "total": 409
+  },
+  {
+    "country": "China",
+    "code": "CHN",
+    "gold": 262,
+    "silver": 199,
+    "bronze": 173,
+    "total": 634
+  },
+  {
+    "country": "Russia",
+    "code": "RUS",
+    "gold": 196,
+    "silver": 164,
+    "bronze": 187,
+    "total": 547
+  },
+  {
+    "country": "Norway",
+    "code": "NOR",
+    "gold": 148,
+    "silver": 133,
+    "bronze": 125,
+    "total": 406
+  },
+  {
+    "country": "Canada",
+    "code": "CAN",
+    "gold": 141,
+    "silver": 175,
+    "bronze": 209,
+    "total": 525
+  },
+  {
+    "country": "Poland",
+    "code": "POL",
+    "gold": 72,
+    "silver": 89,
+    "bronze": 139,
+    "total": 300
+  },
+  {
+    "country": "Japan",
+    "code": "JPN",
+    "gold": 169,
+    "silver": 150,
+    "bronze": 178,
+    "total": 497
+  },
+  {
+    "country": "Bulgaria",
+    "code": "BUL",
+    "gold": 54,
+    "silver": 89,
+    "bronze": 83,
+    "total": 226
+  },
+  {
+    "country": "Cuba",
+    "code": "CUB",
+    "gold": 84,
+    "silver": 69,
+    "bronze": 82,
+    "total": 235
+  },
+  {
+    "country": "Romania",
+    "code": "ROU",
+    "gold": 90,
+    "silver": 95,
+    "bronze": 122,
+    "total": 307
+  },
+  {
+    "country": "Kenya",
+    "code": "KEN",
+    "gold": 35,
+    "silver": 42,
+    "bronze": 36,
+    "total": 113
+  },
+  {
+    "country": "South Korea",
+    "code": "KOR",
+    "gold": 96,
+    "silver": 91,
+    "bronze": 100,
+    "total": 287
+  },
+  {
+    "country": "Czech Republic",
+    "code": "CZE",
+    "gold": 17,
+    "silver": 17,
+    "bronze": 24,
+    "total": 58
+  },
+  {
+    "country": "Switzerland",
+    "code": "SUI",
+    "gold": 56,
+    "silver": 78,
+    "bronze": 67,
+    "total": 201
+  },
+  {
+    "country": "Belgium",
+    "code": "BEL",
+    "gold": 44,
+    "silver": 55,
+    "bronze": 58,
+    "total": 157
+  },
+  {
+    "country": "Denmark",
+    "code": "DEN",
+    "gold": 48,
+    "silver": 74,
+    "bronze": 75,
+    "total": 197
+  },
+  {
+    "country": "Turkey",
+    "code": "TUR",
+    "gold": 41,
+    "silver": 26,
+    "bronze": 28,
+    "total": 95
+  },
+  {
+    "country": "Greece",
+    "code": "GRE",
+    "gold": 35,
+    "silver": 45,
+    "bronze": 41,
+    "total": 121
+  },
+  {
+    "country": "Brazil",
+    "code": "BRA",
+    "gold": 37,
+    "silver": 42,
+    "bronze": 71,
+    "total": 150
+  },
+  {
+    "country": "Spain",
+    "code": "ESP",
+    "gold": 47,
+    "silver": 66,
+    "bronze": 40,
+    "total": 153
+  },
+  {
+    "country": "New Zealand",
+    "code": "NZL",
+    "gold": 52,
+    "silver": 26,
+    "bronze": 44,
+    "total": 122
+  },
+  {
+    "country": "South Africa",
+    "code": "RSA",
+    "gold": 27,
+    "silver": 33,
+    "bronze": 29,
+    "total": 89
+  },
+  {
+    "country": "Ukraine",
+    "code": "UKR",
+    "gold": 47,
+    "silver": 52,
+    "bronze": 100,
+    "total": 199
+  },
+  {
+    "country": "Jamaica",
+    "code": "JAM",
+    "gold": 22,
+    "silver": 36,
+    "bronze": 25,
+    "total": 83
+  },
+  {
+    "country": "Croatia",
+    "code": "CRO",
+    "gold": 12,
+    "silver": 14,
+    "bronze": 14,
+    "total": 40
+  },
+  {
+    "country": "Ethiopia",
+    "code": "ETH",
+    "gold": 23,
+    "silver": 12,
+    "bronze": 23,
+    "total": 58
+  },
+  {
+    "country": "Belarus",
+    "code": "BLR",
+    "gold": 13,
+    "silver": 28,
+    "bronze": 39,
+    "total": 80
+  },
+  {
+    "country": "Slovenia",
+    "code": "SLO",
+    "gold": 7,
+    "silver": 9,
+    "bronze": 10,
+    "total": 26
+  },
+  {
+    "country": "Lithuania",
+    "code": "LTU",
+    "gold": 6,
+    "silver": 7,
+    "bronze": 13,
+    "total": 26
+  },
+  {
+    "country": "Argentina",
+    "code": "ARG",
+    "gold": 21,
+    "silver": 25,
+    "bronze": 28,
+    "total": 74
+  },
+  {
+    "country": "Mexico",
+    "code": "MEX",
+    "gold": 13,
+    "silver": 24,
+    "bronze": 35,
+    "total": 72
+  },
+  {
+    "country": "Iran",
+    "code": "IRI",
+    "gold": 24,
+    "silver": 23,
+    "bronze": 29,
+    "total": 76
+  },
+  {
+    "country": "Uzbekistan",
+    "code": "UZB",
+    "gold": 10,
+    "silver": 6,
+    "bronze": 20,
+    "total": 36
+  },
+  {
+    "country": "Latvia",
+    "code": "LAT",
+    "gold": 4,
+    "silver": 11,
+    "bronze": 5,
+    "total": 20
+  },
+  {
+    "country": "Estonia",
+    "code": "EST",
+    "gold": 4,
+    "silver": 3,
+    "bronze": 4,
+    "total": 11
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "code": "TTO",
+    "gold": 3,
+    "silver": 5,
+    "bronze": 4,
+    "total": 12
+  },
+  {
+    "country": "Slovakia",
+    "code": "SVK",
+    "gold": 4,
+    "silver": 3,
+    "bronze": 2,
+    "total": 9
+  },
+  {
+    "country": "Georgia",
+    "code": "GEO",
+    "gold": 8,
+    "silver": 6,
+    "bronze": 18,
+    "total": 32
+  },
+  {
+    "country": "Thailand",
+    "code": "THA",
+    "gold": 10,
+    "silver": 8,
+    "bronze": 17,
+    "total": 35
+  },
+  {
+    "country": "North Korea",
+    "code": "PRK",
+    "gold": 16,
+    "silver": 16,
+    "bronze": 22,
+    "total": 54
+  },
+  {
+    "country": "Indonesia",
+    "code": "INA",
+    "gold": 8,
+    "silver": 13,
+    "bronze": 15,
+    "total": 36
+  }
+]

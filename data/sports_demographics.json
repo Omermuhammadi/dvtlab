@@ -1,0 +1,122 @@
+[
+  {
+    "sport": "Swimming",
+    "avgAge": 21.5,
+    "medals": 628,
+    "athletes": 2842,
+    "goldMedals": 219,
+    "events": 34
+  },
+  {
+    "sport": "Athletics",
+    "avgAge": 24.8,
+    "medals": 989,
+    "athletes": 4156,
+    "goldMedals": 335,
+    "events": 47
+  },
+  {
+    "sport": "Gymnastics",
+    "avgAge": 19.2,
+    "medals": 577,
+    "athletes": 1834,
+    "goldMedals": 205,
+    "events": 18
+  },
+  {
+    "sport": "Rowing",
+    "avgAge": 26.3,
+    "medals": 580,
+    "athletes": 2156,
+    "goldMedals": 187,
+    "events": 14
+  },
+  {
+    "sport": "Boxing",
+    "avgAge": 23.7,
+    "medals": 431,
+    "athletes": 1567,
+    "goldMedals": 108,
+    "events": 13
+  },
+  {
+    "sport": "Wrestling",
+    "avgAge": 25.1,
+    "medals": 411,
+    "athletes": 1324,
+    "goldMedals": 129,
+    "events": 18
+  },
+  {
+    "sport": "Cycling",
+    "avgAge": 27.4,
+    "medals": 367,
+    "athletes": 1245,
+    "goldMedals": 123,
+    "events": 22
+  },
+  {
+    "sport": "Sailing",
+    "avgAge": 28.9,
+    "medals": 393,
+    "athletes": 1156,
+    "goldMedals": 137,
+    "events": 11
+  },
+  {
+    "sport": "Fencing",
+    "avgAge": 24.6,
+    "medals": 358,
+    "athletes": 967,
+    "goldMedals": 125,
+    "events": 12
+  },
+  {
+    "sport": "Shooting",
+    "avgAge": 32.1,
+    "medals": 350,
+    "athletes": 845,
+    "goldMedals": 119,
+    "events": 15
+  },
+  {
+    "sport": "Weightlifting",
+    "avgAge": 26.8,
+    "medals": 347,
+    "athletes": 756,
+    "goldMedals": 117,
+    "events": 15
+  },
+  {
+    "sport": "Tennis",
+    "avgAge": 25.3,
+    "medals": 184,
+    "athletes": 634,
+    "goldMedals": 60,
+    "events": 5
+  },
+  {
+    "sport": "Basketball",
+    "avgAge": 24.9,
+    "medals": 81,
+    "athletes": 512,
+    "goldMedals": 27,
+    "events": 2
+  },
+  {
+    "sport": "Football",
+    "avgAge": 23.2,
+    "medals": 81,
+    "athletes": 498,
+    "goldMedals": 27,
+    "events": 2
+  },
+  {
+    "sport": "Hockey",
+    "avgAge": 25.7,
+    "medals": 108,
+    "athletes": 432,
+    "goldMedals": 36,
+    "events": 2
+  }
+]
