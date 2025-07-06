@@ -1,0 +1,107 @@
+[
+  {
+    "sport": "Athletics",
+    "gold": 335,
+    "silver": 327,
+    "bronze": 327,
+    "total": 989
+  },
+  {
+    "sport": "Swimming",
+    "gold": 219,
+    "silver": 207,
+    "bronze": 202,
+    "total": 628
+  },
+  {
+    "sport": "Rowing",
+    "gold": 187,
+    "silver": 194,
+    "bronze": 199,
+    "total": 580
+  },
+  {
+    "sport": "Gymnastics",
+    "gold": 205,
+    "silver": 189,
+    "bronze": 183,
+    "total": 577
+  },
+  {
+    "sport": "Boxing",
+    "gold": 108,
+    "silver": 108,
+    "bronze": 215,
+    "total": 431
+  },
+  {
+    "sport": "Wrestling",
+    "gold": 129,
+    "silver": 129,
+    "bronze": 153,
+    "total": 411
+  },
+  {
+    "sport": "Sailing",
+    "gold": 137,
+    "silver": 134,
+    "bronze": 122,
+    "total": 393
+  },
+  {
+    "sport": "Cycling",
+    "gold": 123,
+    "silver": 119,
+    "bronze": 125,
+    "total": 367
+  },
+  {
+    "sport": "Fencing",
+    "gold": 125,
+    "silver": 125,
+    "bronze": 108,
+    "total": 358
+  },
+  {
+    "sport": "Shooting",
+    "gold": 119,
+    "silver": 115,
+    "bronze": 116,
+    "total": 350
+  },
+  {
+    "sport": "Weightlifting",
+    "gold": 117,
+    "silver": 115,
+    "bronze": 115,
+    "total": 347
+  },
+  {
+    "sport": "Football",
+    "gold": 27,
+    "silver": 27,
+    "bronze": 27,
+    "total": 81
+  },
+  {
+    "sport": "Basketball",
+    "gold": 27,
+    "silver": 27,
+    "bronze": 27,
+    "total": 81
+  },
+  {
+    "sport": "Tennis",
+    "gold": 60,
+    "silver": 59,
+    "bronze": 65,
+    "total": 184
+  },
+  {
+    "sport": "Hockey",
+    "gold": 36,
+    "silver": 36,
+    "bronze": 36,
+    "total": 108
+  }
+]
