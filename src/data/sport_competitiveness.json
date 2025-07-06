@@ -1,0 +1,110 @@
+[
+  {
+    "sport": "Swimming",
+    "events": 34,
+    "total_medals": 102,
+    "participants_per_event": 50,
+    "competitiveness_score": 85,
+    "global_popularity": 92,
+    "tv_viewership_millions": 400
+  },
+  {
+    "sport": "Athletics",
+    "events": 47,
+    "total_medals": 141,
+    "participants_per_event": 45,
+    "competitiveness_score": 88,
+    "global_popularity": 95,
+    "tv_viewership_millions": 500
+  },
+  {
+    "sport": "Gymnastics",
+    "events": 18,
+    "total_medals": 54,
+    "participants_per_event": 24,
+    "competitiveness_score": 82,
+    "global_popularity": 88,
+    "tv_viewership_millions": 350
+  },
+  {
+    "sport": "Cycling",
+    "events": 22,
+    "total_medals": 66,
+    "participants_per_event": 30,
+    "competitiveness_score": 75,
+    "global_popularity": 78,
+    "tv_viewership_millions": 200
+  },
+  {
+    "sport": "Wrestling",
+    "events": 18,
+    "total_medals": 54,
+    "participants_per_event": 20,
+    "competitiveness_score": 70,
+    "global_popularity": 65,
+    "tv_viewership_millions": 120
+  },
+  {
+    "sport": "Boxing",
+    "events": 13,
+    "total_medals": 39,
+    "participants_per_event": 16,
+    "competitiveness_score": 78,
+    "global_popularity": 72,
+    "tv_viewership_millions": 180
+  },
+  {
+    "sport": "Rowing",
+    "events": 14,
+    "total_medals": 42,
+    "participants_per_event": 8,
+    "competitiveness_score": 68,
+    "global_popularity": 45,
+    "tv_viewership_millions": 80
+  },
+  {
+    "sport": "Sailing",
+    "events": 10,
+    "total_medals": 30,
+    "participants_per_event": 3,
+    "competitiveness_score": 60,
+    "global_popularity": 38,
+    "tv_viewership_millions": 60
+  },
+  {
+    "sport": "Football",
+    "events": 2,
+    "total_medals": 6,
+    "participants_per_event": 18,
+    "competitiveness_score": 90,
+    "global_popularity": 98,
+    "tv_viewership_millions": 600
+  },
+  {
+    "sport": "Basketball",
+    "events": 2,
+    "total_medals": 6,
+    "participants_per_event": 12,
+    "competitiveness_score": 85,
+    "global_popularity": 90,
+    "tv_viewership_millions": 450
+  },
+  {
+    "sport": "Tennis",
+    "events": 5,
+    "total_medals": 15,
+    "participants_per_event": 64,
+    "competitiveness_score": 88,
+    "global_popularity": 85,
+    "tv_viewership_millions": 300
+  },
+  {
+    "sport": "Weightlifting",
+    "events": 15,
+    "total_medals": 45,
+    "participants_per_event": 15,
+    "competitiveness_score": 72,
+    "global_popularity": 55,
+    "tv_viewership_millions": 100
+  }
+]

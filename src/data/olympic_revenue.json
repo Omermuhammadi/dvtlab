@@ -1,0 +1,102 @@
+[
+  {
+    "year": 1980,
+    "host_country": "Soviet Union",
+    "city": "Moscow",
+    "revenue_millions": 800,
+    "cost_millions": 2000,
+    "profit_loss": -1200,
+    "athletes": 5179,
+    "events": 203
+  },
+  {
+    "year": 1984,
+    "host_country": "United States", 
+    "city": "Los Angeles",
+    "revenue_millions": 1500,
+    "cost_millions": 500,
+    "profit_loss": 1000,
+    "athletes": 6829,
+    "events": 221
+  },
+  {
+    "year": 1988,
+    "host_country": "South Korea",
+    "city": "Seoul", 
+    "revenue_millions": 1200,
+    "cost_millions": 4000,
+    "profit_loss": -2800,
+    "athletes": 8391,
+    "events": 237
+  },
+  {
+    "year": 1992,
+    "host_country": "Spain",
+    "city": "Barcelona",
+    "revenue_millions": 1800,
+    "cost_millions": 9600,
+    "profit_loss": -7800,
+    "athletes": 9356,
+    "events": 257
+  },
+  {
+    "year": 1996,
+    "host_country": "United States",
+    "city": "Atlanta", 
+    "revenue_millions": 2500,
+    "cost_millions": 1800,
+    "profit_loss": 700,
+    "athletes": 10318,
+    "events": 271
+  },
+  {
+    "year": 2000,
+    "host_country": "Australia",
+    "city": "Sydney",
+    "revenue_millions": 3200,
+    "cost_millions": 6600,
+    "profit_loss": -3400,
+    "athletes": 10651,
+    "events": 300
+  },
+  {
+    "year": 2004,
+    "host_country": "Greece",
+    "city": "Athens",
+    "revenue_millions": 2800,
+    "cost_millions": 15000,
+    "profit_loss": -12200,
+    "athletes": 10625,
+    "events": 301
+  },
+  {
+    "year": 2008,
+    "host_country": "China",
+    "city": "Beijing",
+    "revenue_millions": 4200,
+    "cost_millions": 40000,
+    "profit_loss": -35800,
+    "athletes": 10942,
+    "events": 302
+  },
+  {
+    "year": 2012,
+    "host_country": "Great Britain",
+    "city": "London",
+    "revenue_millions": 5200,
+    "cost_millions": 14600,
+    "profit_loss": -9400,
+    "athletes": 10568,
+    "events": 302
+  },
+  {
+    "year": 2016,
+    "host_country": "Brazil",
+    "city": "Rio de Janeiro",
+    "revenue_millions": 4800,
+    "cost_millions": 13100,
+    "profit_loss": -8300,
+    "athletes": 11238,
+    "events": 306
+  }
+]

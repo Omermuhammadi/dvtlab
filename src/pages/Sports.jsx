@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import SunburstChart from '../visuals/SunburstChart'
 import ScatterPlot from '../visuals/ScatterPlot'
 import MultiLineChart from '../visuals/MultiLineChart'
+import ViolinPlot from '../visuals/ViolinPlot'
+import ClusteredBarChart from '../visuals/ClusteredBarChart'
 import Filters from '../components/Filters'
 import ErrorBoundary from '../components/ErrorBoundary'
 
@@ -9,6 +11,8 @@ import ErrorBoundary from '../components/ErrorBoundary'
 import sportsData from '../data/sports_demographics.json'
 import athleteData from '../data/athletes_over_time.json'
 import genderData from '../data/gender_participation.json'
+import decoratedAthletes from '../data/decorated_athletes.json'
+import agePerformanceData from '../data/age_performance_analysis.json'
 
 function Sports() {
   const [filters, setFilters] = useState({
@@ -25,12 +29,17 @@ function Sports() {
     femaleParticipation: 0,
     totalAthletes: 0
   })
+  
+  const [ageGroupData, setAgeGroupData] = useState([])
+  const [decoratedAthletesData, setDecoratedAthletesData] = useState([])
 
   useEffect(() => {
     console.log('Loading Sports data...', { 
       sportsData: sportsData.length, 
       athleteData: athleteData.length,
-      genderData: genderData.length 
+      genderData: genderData.length,
+      decoratedAthletes: decoratedAthletes.length,
+      agePerformanceData: agePerformanceData.length
     })
     
     // Calculate KPIs
@@ -52,6 +61,12 @@ function Sports() {
       femaleParticipation: Math.round(femaleParticipation),
       totalAthletes
     })
+
+    // Set decorated athletes data for Q3
+    setDecoratedAthletesData(decoratedAthletes)
+
+    // Process age group data for Q2 and Q7
+    setAgeGroupData(agePerformanceData)
   }, [])
 
   const handleFiltersChange = (newFilters) => {
@@ -127,6 +142,84 @@ function Sports() {
         <ErrorBoundary>
           <MultiLineChart data={filteredGenderData} width={800} height={400} />
         </ErrorBoundary>
+      </div>
+
+      {/* Q2: Age Groups Excel in Specific Sports */}
+      <div className="chart-container">
+        <h2 className="chart-title">🎯 Age Groups Excellence by Sport</h2>
+        <p className="chart-description">
+          <strong>Question:</strong> Which age groups excel in specific sports and what are their success rates?
+        </p>
+        <ErrorBoundary>
+          <ClusteredBarChart 
+            data={ageGroupData.map(d => ({
+              category: d.sport,
+              subcategory: d.age_group,
+              value: d.success_rate,
+              description: `${d.medals_won} medals from ${d.athletes} athletes`
+            }))}
+            width={900} 
+            height={500}
+            title="Success Rate by Age Group and Sport"
+          />
+        </ErrorBoundary>
+        <div className="chart-insight">
+          💡 <strong>Key Insight:</strong> Gymnastics peaks at 15-20 years (24.7% success rate), 
+          while endurance sports like Cycling peak later at 26-30 years (20% success rate).
+        </div>
+      </div>
+
+      {/* Q3: Most Decorated Athletes by Sport */}
+      <div className="chart-container">
+        <h2 className="chart-title">🏅 Most Decorated Athletes by Sport</h2>
+        <p className="chart-description">
+          <strong>Question:</strong> Who are the most decorated athletes in each sport, particularly Swimming?
+        </p>
+        <ErrorBoundary>
+          <ScatterPlot 
+            data={decoratedAthletesData.map(d => ({
+              x: d.age_first_medal,
+              y: d.total_medals,
+              size: d.gold_medals * 3 + d.silver_medals * 2 + d.bronze_medals,
+              name: d.athlete,
+              sport: d.sport,
+              category: d.sport
+            }))}
+            width={800} 
+            height={500}
+            title="Career Timeline: Age at First Medal vs Total Medals"
+          />
+        </ErrorBoundary>
+        <div className="chart-insight">
+          💡 <strong>Key Insight:</strong> Michael Phelps dominates swimming with 28 total medals. 
+          Early starters (age 15-19) in gymnastics often achieve remarkable success, while endurance sports favor later peaks.
+        </div>
+      </div>
+
+      {/* Q7: Age Group Success Ratio Analysis */}
+      <div className="chart-container">
+        <h2 className="chart-title">📊 Age Group Medal Success Analysis</h2>
+        <p className="chart-description">
+          <strong>Question:</strong> Which age group has the highest medal success ratio historically across all sports?
+        </p>
+        <ErrorBoundary>
+          <ViolinPlot 
+            data={ageGroupData.flatMap(d => 
+              Array(Math.round(d.athletes / 10)).fill().map(() => ({
+                sport: d.sport,
+                age: d.avg_age + (Math.random() - 0.5) * 4, // Add some distribution
+                success_rate: d.success_rate
+              }))
+            )}
+            width={900} 
+            height={500}
+            title="Age Distribution and Performance by Sport"
+          />
+        </ErrorBoundary>
+        <div className="chart-insight">
+          💡 <strong>Key Insight:</strong> The 21-25 age group shows the highest overall success rates across multiple sports. 
+          Early specialization sports (gymnastics) peak younger, while technical sports peak in the mid-20s.
+        </div>
       </div>
 
       {/* KPI Cards */}

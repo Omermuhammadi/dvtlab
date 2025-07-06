@@ -1,0 +1,122 @@
+[
+  {
+    "sport": "Swimming",
+    "athlete": "Michael Phelps",
+    "country": "USA",
+    "total_medals": 28,
+    "gold_medals": 23,
+    "silver_medals": 3,
+    "bronze_medals": 2,
+    "years_active": "2000-2016",
+    "age_first_medal": 19,
+    "age_last_medal": 31
+  },
+  {
+    "sport": "Swimming",
+    "athlete": "Katie Ledecky",
+    "country": "USA", 
+    "total_medals": 10,
+    "gold_medals": 7,
+    "silver_medals": 3,
+    "bronze_medals": 0,
+    "years_active": "2012-2021",
+    "age_first_medal": 15,
+    "age_last_medal": 24
+  },
+  {
+    "sport": "Gymnastics",
+    "athlete": "Nadia Comaneci",
+    "country": "Romania",
+    "total_medals": 9,
+    "gold_medals": 5,
+    "silver_medals": 3,
+    "bronze_medals": 1,
+    "years_active": "1976-1980",
+    "age_first_medal": 14,
+    "age_last_medal": 18
+  },
+  {
+    "sport": "Athletics",
+    "athlete": "Carl Lewis",
+    "country": "USA",
+    "total_medals": 10,
+    "gold_medals": 9,
+    "silver_medals": 1,
+    "bronze_medals": 0,
+    "years_active": "1984-1996",
+    "age_first_medal": 23,
+    "age_last_medal": 35
+  },
+  {
+    "sport": "Athletics",
+    "athlete": "Usain Bolt",
+    "country": "Jamaica",
+    "total_medals": 9,
+    "gold_medals": 8,
+    "silver_medals": 0,
+    "bronze_medals": 1,
+    "years_active": "2008-2016",
+    "age_first_medal": 21,
+    "age_last_medal": 29
+  },
+  {
+    "sport": "Cycling",
+    "athlete": "Bradley Wiggins",
+    "country": "Great Britain",
+    "total_medals": 8,
+    "gold_medals": 5,
+    "silver_medals": 1,
+    "bronze_medals": 2,
+    "years_active": "2000-2016",
+    "age_first_medal": 20,
+    "age_last_medal": 36
+  },
+  {
+    "sport": "Rowing",
+    "athlete": "Steve Redgrave",
+    "country": "Great Britain",
+    "total_medals": 6,
+    "gold_medals": 5,
+    "silver_medals": 0,
+    "bronze_medals": 1,
+    "years_active": "1984-2000",
+    "age_first_medal": 22,
+    "age_last_medal": 38
+  },
+  {
+    "sport": "Wrestling",
+    "athlete": "Aleksandr Karelin",
+    "country": "Russia",
+    "total_medals": 4,
+    "gold_medals": 3,
+    "silver_medals": 1,
+    "bronze_medals": 0,
+    "years_active": "1988-2000",
+    "age_first_medal": 21,
+    "age_last_medal": 33
+  },
+  {
+    "sport": "Boxing",
+    "athlete": "Felix Savon",
+    "country": "Cuba",
+    "total_medals": 3,
+    "gold_medals": 3,
+    "silver_medals": 0,
+    "bronze_medals": 0,
+    "years_active": "1992-2000",
+    "age_first_medal": 25,
+    "age_last_medal": 33
+  },
+  {
+    "sport": "Weightlifting",
+    "athlete": "Naim Suleymanoglu",
+    "country": "Turkey",
+    "total_medals": 3,
+    "gold_medals": 3,
+    "silver_medals": 0,
+    "bronze_medals": 0,
+    "years_active": "1988-1996",
+    "age_first_medal": 21,
+    "age_last_medal": 29
+  }
+]

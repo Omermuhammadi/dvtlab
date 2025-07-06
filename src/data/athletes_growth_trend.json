@@ -1,0 +1,62 @@
+[
+  {
+    "year": 1980,
+    "summer": 5179,
+    "winter": 1072,
+    "total": 5179
+  },
+  {
+    "year": 1984,
+    "summer": 6829,
+    "winter": 1272,
+    "total": 6829
+  },
+  {
+    "year": 1988,
+    "summer": 8391,
+    "winter": 1423,
+    "total": 8391
+  },
+  {
+    "year": 1992,
+    "summer": 9356,
+    "winter": 1801,
+    "total": 9356
+  },
+  {
+    "year": 1996,
+    "summer": 10318,
+    "winter": 1912,
+    "total": 10318
+  },
+  {
+    "year": 2000,
+    "summer": 10651,
+    "winter": 2399,
+    "total": 10651
+  },
+  {
+    "year": 2004,
+    "summer": 10625,
+    "winter": 2508,
+    "total": 10625
+  },
+  {
+    "year": 2008,
+    "summer": 10942,
+    "winter": 2566,
+    "total": 10942
+  },
+  {
+    "year": 2012,
+    "summer": 10568,
+    "winter": 2780,
+    "total": 10568
+  },
+  {
+    "year": 2016,
+    "summer": 11238,
+    "winter": 2952,
+    "total": 11238
+  }
+]

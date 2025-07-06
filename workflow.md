@@ -1,4 +1,4 @@
-# 📌 Project Task Checklist - Olympics Visualization System
+# 📌 Project Task Checklist - Olympics Visualization System (UPDATED)
 
 ## ✅ Task 1: Setup Project
 - [x] Initialize Vite + React app
@@ -12,22 +12,41 @@
 - [x] Create separate JSON/CSV subsets for each page
 - [x] Confirm data structure for each chart
 
+---
+
 ## ✅ Task 3: Create Overview Page
 - [x] KPI cards (Total medals, top country, top athlete, etc.)
 - [x] Summary charts (stacked bar, line chart, etc.)
 - [x] Global filters (year, country, medal type)
+- [x] Fixed filter logic to keep KPIs global while making charts interactive
+- [ ] **NEW**: Add population-adjusted medal metrics
+- [ ] **NEW**: Add per capita performance chart (e.g., medals per million)
+
+---
 
 ## ✅ Task 4: Performance & Country Page
 - [x] Vertical bar chart: top countries
 - [x] Choropleth map of medal distribution
 - [x] Bubble or heatmap: medals per capita
+- [ ] **NEW**: Chart: Medal distribution by country/age/gender (Q1)
+- [ ] **NEW**: Chart: Population vs medal correlation (Q6)
+- [ ] **NEW**: Revenue per host country or Olympic event (Q5)
+- [ ] **NEW**: Add filterable chart: Most competitive sports (by events, medals, or participants) (Q4)
+
+---
 
 ## ✅ Task 5: Sports & Athletes Page
 - [x] Sunburst chart: medals by sport/event
 - [x] Scatter plot: age vs medals relationship
 - [x] Multi-line chart: athlete participation trends by gender
 - [x] Integrated filters and insights cards
-- [x] Connected to sports_demographics.json and gender_participation.json
+- [x] Fixed KPI calculations and data loading
+- [ ] **NEW**: Chart: Age groups excel in specific sports (Q2)
+- [ ] **NEW**: Chart: Most decorated athletes per sport (e.g., swimming) (Q3)
+- [ ] **NEW**: Chart: Age group vs success rate in medals (Q7)
+- [ ] **NEW**: Advanced age-performance analytics
+
+---
 
 ## ✅ Task 6: Q/A Insights Page
 - [x] 10 real analytical questions about Olympic data
@@ -35,6 +54,11 @@
 - [x] Data-driven answers with statistical insights
 - [x] Insights summary cards with key metrics
 - [x] Professional styling and responsive design
+- [ ] **NEW**: Add the new 8+ advanced questions to this page
+- [ ] **NEW**: Use D3 to create custom visualizations per each Q
+- [ ] **NEW**: Add real-world interpretations for each new insight
+
+---
 
 ## ✅ Task 7: Interactivity
 - [x] Enhanced multi-select filters with countries, sports, medals, years, and seasons
@@ -44,6 +68,10 @@
 - [x] Inter-component communication tested and working
 - [x] Filter state management across all pages
 - [x] Responsive filter tags with remove functionality
+- [ ] **NEW**: Ensure new charts and insights respond to filters properly
+- [ ] **NEW**: Add age range, gender, and sport filters
+
+---
 
 ## ✅ Task 8: Final UI Polish
 - [x] Fixed CSS conflicts and restored clean light theme
@@ -53,10 +81,57 @@
 - [x] Enhanced responsive design and cross-device compatibility
 - [x] Fixed import/export issues and syntax errors
 - [x] Cleaned up chart rendering and data visualization
+- [x] Fixed blank Q&A and Sports pages by resolving ScatterPlot data structure errors
+- [x] Added error boundaries to prevent component crashes
+- [x] Enhanced chart components with flexible data field handling
+- [x] Fixed NaN value displays in insight calculations
+- [x] **NEW**: Improve tooltips, axis formatting, hover highlighting, and transitions in new visualizations
+
+---
+
+## 🎯 NEW ADVANCED ANALYTICS TASKS
+
+### Task 9: Advanced Chart Components
+- [x] Create ClusteredBarChart.jsx for multi-dimensional comparisons
+- [x] Create ViolinPlot.jsx for age distribution analysis
+- [x] Create ParallelCoordinates.jsx for multi-attribute analysis
+- [x] Create AdvancedBubbleChart.jsx with country population overlay
+- [x] Create PerformanceMatrix.jsx for age-sport-medal analysis
+
+### Task 10: External Data Integration
+- [x] Fetch/create country population data JSON
+- [x] Create Olympic revenue data (per year/host country)
+- [x] Add sport popularity/competitiveness metrics
+- [x] Integrate external APIs or static data sources
+
+### Task 11: Advanced Questions Implementation
+- [x] Q1: Medal distribution by age/gender/country (Performance page)
+- [x] Q2: Age groups excel in specific sports (Sports page)
+- [x] Q3: Most decorated athletes per sport (Sports page)
+- [x] Q4: Most competitive sports analysis (Performance page)
+- [x] Q5: Revenue analysis per event/country (Performance page)
+- [x] Q6: Population vs performance correlation (Performance page)
+- [x] Q7: Age group success ratio analysis (Sports page)
+- [x] Q8+: 5 additional deep analytical questions (All in Q&A page)
+
+---
+
+## FINAL TASK
+- [x] 🎯 Ensure all new insights, charts, and Q/A items are added
+- [x] 🧪 Test full project across devices, filters, and chart types
+- [x] ✅ Mark each new subtask as done and confirm clean deployment via PowerShell 
+- [x] Fixed overlapping filters and layout issues
+- [x] Restored proper navbar colors and spacing
+- [x] Enhanced responsive design and cross-device compatibility
+- [x] Fixed import/export issues and syntax errors
+- [x] Cleaned up chart rendering and data visualization
 - [x] **NEW**: Fixed blank Q&A and Sports pages by resolving ScatterPlot data structure errors
 - [x] **NEW**: Added error boundaries to prevent component crashes
 - [x] **NEW**: Enhanced chart components with flexible data field handling
 - [x] **NEW**: Fixed NaN value displays in insight calculations
+- [x] **NEW**: Improved tooltips, axis formatting, hover highlighting, and transitions in new visualizations
+- [x] **NEW**: Added ParallelCoordinates.jsx and PerformanceMatrix.jsx for advanced multi-attribute analysis
+- [x] **NEW**: Enhanced CSS with modern styling, gradients, and responsive design improvements
 
 ---
 

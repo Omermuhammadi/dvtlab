@@ -1,0 +1,122 @@
+[
+  {
+    "country": "United States",
+    "code": "USA",
+    "population": 331900000,
+    "region": "North America"
+  },
+  {
+    "country": "Soviet Union",
+    "code": "URS",
+    "population": 290000000,
+    "region": "Europe/Asia"
+  },
+  {
+    "country": "Germany",
+    "code": "GER", 
+    "population": 83200000,
+    "region": "Europe"
+  },
+  {
+    "country": "Great Britain",
+    "code": "GBR",
+    "population": 67500000,
+    "region": "Europe"
+  },
+  {
+    "country": "Italy",
+    "code": "ITA",
+    "population": 59100000,
+    "region": "Europe"
+  },
+  {
+    "country": "France",
+    "code": "FRA",
+    "population": 67800000,
+    "region": "Europe"
+  },
+  {
+    "country": "Australia",
+    "code": "AUS",
+    "population": 25700000,
+    "region": "Oceania"
+  },
+  {
+    "country": "Hungary",
+    "code": "HUN",
+    "population": 9700000,
+    "region": "Europe"
+  },
+  {
+    "country": "Sweden",
+    "code": "SWE",
+    "population": 10400000,
+    "region": "Europe"
+  },
+  {
+    "country": "East Germany",
+    "code": "GDR",
+    "population": 16700000,
+    "region": "Europe"
+  },
+  {
+    "country": "Netherlands",
+    "code": "NED",
+    "population": 17400000,
+    "region": "Europe"
+  },
+  {
+    "country": "Canada",
+    "code": "CAN",
+    "population": 38000000,
+    "region": "North America"
+  },
+  {
+    "country": "China",
+    "code": "CHN",
+    "population": 1412000000,
+    "region": "Asia"
+  },
+  {
+    "country": "Russia",
+    "code": "RUS",
+    "population": 146000000,
+    "region": "Europe/Asia"
+  },
+  {
+    "country": "Japan",
+    "code": "JPN",
+    "population": 125800000,
+    "region": "Asia"
+  },
+  {
+    "country": "Norway",
+    "code": "NOR",
+    "population": 5400000,
+    "region": "Europe"
+  },
+  {
+    "country": "South Korea",
+    "code": "KOR",
+    "population": 51800000,
+    "region": "Asia"
+  },
+  {
+    "country": "Poland",
+    "code": "POL",
+    "population": 38000000,
+    "region": "Europe"
+  },
+  {
+    "country": "Cuba",
+    "code": "CUB",
+    "population": 11300000,
+    "region": "Caribbean"
+  },
+  {
+    "country": "Romania",
+    "code": "ROU",
+    "population": 19100000,
+    "region": "Europe"
+  }
+]

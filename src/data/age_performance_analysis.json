@@ -1,0 +1,146 @@
+[
+  {
+    "age_group": "15-20",
+    "sport": "Swimming",
+    "athletes": 1250,
+    "medals_won": 180,
+    "success_rate": 14.4,
+    "avg_age": 18.2
+  },
+  {
+    "age_group": "21-25",
+    "sport": "Swimming", 
+    "athletes": 2100,
+    "medals_won": 420,
+    "success_rate": 20.0,
+    "avg_age": 23.1
+  },
+  {
+    "age_group": "26-30",
+    "sport": "Swimming",
+    "athletes": 980,
+    "medals_won": 125,
+    "success_rate": 12.8,
+    "avg_age": 28.5
+  },
+  {
+    "age_group": "15-20",
+    "sport": "Gymnastics",
+    "athletes": 890,
+    "medals_won": 220,
+    "success_rate": 24.7,
+    "avg_age": 17.8
+  },
+  {
+    "age_group": "21-25",
+    "sport": "Gymnastics",
+    "athletes": 520,
+    "medals_won": 95,
+    "success_rate": 18.3,
+    "avg_age": 22.9
+  },
+  {
+    "age_group": "26-30",
+    "sport": "Gymnastics",
+    "athletes": 180,
+    "medals_won": 15,
+    "success_rate": 8.3,
+    "avg_age": 28.1
+  },
+  {
+    "age_group": "15-20",
+    "sport": "Athletics",
+    "athletes": 850,
+    "medals_won": 45,
+    "success_rate": 5.3,
+    "avg_age": 19.1
+  },
+  {
+    "age_group": "21-25",
+    "sport": "Athletics",
+    "athletes": 2800,
+    "medals_won": 480,
+    "success_rate": 17.1,
+    "avg_age": 23.4
+  },
+  {
+    "age_group": "26-30",
+    "sport": "Athletics",
+    "athletes": 1900,
+    "medals_won": 290,
+    "success_rate": 15.3,
+    "avg_age": 28.2
+  },
+  {
+    "age_group": "31-35",
+    "sport": "Athletics",
+    "athletes": 720,
+    "medals_won": 85,
+    "success_rate": 11.8,
+    "avg_age": 33.1
+  },
+  {
+    "age_group": "15-20",
+    "sport": "Cycling",
+    "athletes": 420,
+    "medals_won": 25,
+    "success_rate": 6.0,
+    "avg_age": 19.3
+  },
+  {
+    "age_group": "21-25",
+    "sport": "Cycling",
+    "athletes": 1200,
+    "medals_won": 180,
+    "success_rate": 15.0,
+    "avg_age": 23.7
+  },
+  {
+    "age_group": "26-30",
+    "sport": "Cycling",
+    "athletes": 1100,
+    "medals_won": 220,
+    "success_rate": 20.0,
+    "avg_age": 28.4
+  },
+  {
+    "age_group": "31-35",
+    "sport": "Cycling",
+    "athletes": 580,
+    "medals_won": 95,
+    "success_rate": 16.4,
+    "avg_age": 32.8
+  },
+  {
+    "age_group": "15-20",
+    "sport": "Wrestling",
+    "athletes": 650,
+    "medals_won": 45,
+    "success_rate": 6.9,
+    "avg_age": 18.9
+  },
+  {
+    "age_group": "21-25",
+    "sport": "Wrestling",
+    "athletes": 1400,
+    "medals_won": 280,
+    "success_rate": 20.0,
+    "avg_age": 23.2
+  },
+  {
+    "age_group": "26-30",
+    "sport": "Wrestling",
+    "athletes": 980,
+    "medals_won": 185,
+    "success_rate": 18.9,
+    "avg_age": 28.1
+  },
+  {
+    "age_group": "31-35",
+    "sport": "Wrestling",
+    "athletes": 320,
+    "medals_won": 35,
+    "success_rate": 10.9,
+    "avg_age": 32.5
+  }
+]

@@ -5,11 +5,13 @@ import Filters from '../components/Filters'
 import ErrorBoundary from '../components/ErrorBoundary'
 import medalData from '../data/medal_counts_by_country.json'
 import athleteData from '../data/athletes_over_time.json'
+import athletesGrowthTrend from '../data/athletes_growth_trend.json'
 
 function Overview() {
   const [countryData, setCountryData] = useState([])
   const [timeData, setTimeData] = useState([])
   const [filteredData, setFilteredData] = useState([])
+  const [filteredTimeData, setFilteredTimeData] = useState([])
   const [kpiData, setKpiData] = useState({
     totalAthletes: 0,
     totalCountries: 0,
@@ -26,8 +28,9 @@ function Overview() {
     setFilteredData(topCountries)
     
     // Filter athlete data for recent years and calculate total athletes
-    const recentYears = athleteData.filter(d => d.year >= 1980)
+    const recentYears = athletesGrowthTrend // Use the smoothed growth trend data
     setTimeData(recentYears)
+    setFilteredTimeData(recentYears) // Initialize filtered time data
     
     // Calculate KPIs with proper data validation
     const totalMedals = medalData.reduce((sum, country) => sum + (country.total || 0), 0)
@@ -47,28 +50,63 @@ function Overview() {
   }, [])
 
   const handleFiltersChange = (filters) => {
-    let filtered = [...countryData]
+    let filteredCountries = [...countryData]
+    let filteredTimeData = [...timeData]
     
-    // Filter by selected countries
+    // Filter countries by selected countries
     if (filters.countries && filters.countries.length > 0) {
-      filtered = filtered.filter(country => 
+      filteredCountries = filteredCountries.filter(country => 
         filters.countries.includes(country.country || country.code)
       )
     }
     
-    // Apply medal type filter
-    if (filters.medals && filters.medals.length > 0) {
-      // If specific medal types are selected, show only those
-      filtered = filtered.map(country => {
-        const newCountry = { ...country }
-        if (filters.medals.includes('gold')) newCountry.gold = country.gold || 0
-        if (filters.medals.includes('silver')) newCountry.silver = country.silver || 0
-        if (filters.medals.includes('bronze')) newCountry.bronze = country.bronze || 0
-        return newCountry
-      })
+    // Filter time data by selected countries (for line chart)
+    if (filters.countries && filters.countries.length > 0) {
+      // For now, we'll just apply year filter to time data since our time data doesn't have country breakdown
+      // In a real scenario, you'd filter by countries in the time series data
     }
     
-    setFilteredData(filtered)
+    // Apply year range filter to time data
+    if (filters.years && filters.years.length === 2) {
+      filteredTimeData = filteredTimeData.filter(d => 
+        d.year >= filters.years[0] && d.year <= filters.years[1]
+      )
+    }
+    
+    // Apply medal type filter to country data
+    if (filters.medals && filters.medals.length > 0) {
+      filteredCountries = filteredCountries.map(country => {
+        const newCountry = { ...country }
+        let total = 0
+        
+        if (filters.medals.includes('gold')) {
+          newCountry.gold = country.gold || 0
+          total += newCountry.gold
+        } else {
+          newCountry.gold = 0
+        }
+        
+        if (filters.medals.includes('silver')) {
+          newCountry.silver = country.silver || 0
+          total += newCountry.silver
+        } else {
+          newCountry.silver = 0
+        }
+        
+        if (filters.medals.includes('bronze')) {
+          newCountry.bronze = country.bronze || 0
+          total += newCountry.bronze
+        } else {
+          newCountry.bronze = 0
+        }
+        
+        newCountry.total = total
+        return newCountry
+      }).filter(country => country.total > 0) // Only show countries with medals in selected types
+    }
+    
+    setFilteredData(filteredCountries)
+    setFilteredTimeData(filteredTimeData)
   }
 
   return (
@@ -86,7 +124,11 @@ function Overview() {
         data={countryData}
       />
 
-      {/* Enhanced KPI Cards */}
+      {/* Enhanced KPI Cards - Global Statistics */}
+      <div className="section-header">
+        <h2>🌍 Global Olympic Statistics</h2>
+        <p>These metrics represent the complete Olympic dataset and do not change with filters</p>
+      </div>
       <div className="kpi-grid">
         <div className="kpi-card">
           <div className="kpi-icon">👥</div>
@@ -115,6 +157,10 @@ function Overview() {
       </div>
 
       {/* Top Countries Bar Chart */}
+      <div className="section-header">
+        <h2>📊 Interactive Data Exploration</h2>
+        <p>Use the filters above to explore specific countries, time periods, and medal types</p>
+      </div>
       <div className="chart-container">
         <h2 className="chart-title">🏆 Top Performing Countries by Medal Count</h2>
         <p className="chart-description">
@@ -133,7 +179,8 @@ function Overview() {
           />
         </ErrorBoundary>
         <div className="chart-insight">
-          💡 <strong>Key Insight:</strong> The top 3 countries (USA, USSR, Germany) account for 47% of all Olympic medals in our dataset.
+          💡 <strong>Current Selection:</strong> Showing {filteredData.length} countries with {filteredData.reduce((sum, d) => sum + (d.total || 0), 0).toLocaleString()} total medals.
+          {filteredData.length < countryData.length ? ` (Filtered from ${countryData.length} total countries)` : ' (All countries shown)'}
         </div>
       </div>
 
@@ -146,7 +193,7 @@ function Overview() {
         </p>
         <ErrorBoundary>
           <LineChart 
-            data={timeData} 
+            data={filteredTimeData} 
             width={800} 
             height={400} 
             title="Olympic Participation Over Time"
@@ -155,7 +202,9 @@ function Overview() {
           />
         </ErrorBoundary>
         <div className="chart-insight">
-          💡 <strong>Key Insight:</strong> Athlete participation has increased by 210% since 1980, with Summer Games consistently larger than Winter Games.
+          💡 <strong>Current Selection:</strong> Showing data from {filteredTimeData.length > 0 ? Math.min(...filteredTimeData.map(d => d.year)) : 'N/A'} to {filteredTimeData.length > 0 ? Math.max(...filteredTimeData.map(d => d.year)) : 'N/A'} 
+          {filteredTimeData.length > 0 ? ` with ${Math.max(...filteredTimeData.map(d => d.total || 0)).toLocaleString()} peak athletes in a single Games.` : ''}
+          {filteredTimeData.length < timeData.length ? ` (Filtered from full ${timeData.length}-year dataset)` : ' (Complete timeline shown)'}
         </div>
       </div>
     </div>
